@@ -5857,6 +5857,12 @@ a:hover {
   position: relative;
   top: 5px;
 }
+.article-tag-link {
+  font-size: 1em;
+}
+.article-category-link {
+  font-size: 1em;
+}
 .navbar-default .navbar-nav > li > a:hover {
   color: #e57b49;
 }
