@@ -5848,6 +5848,9 @@ a:hover {
   color: #e57b49;
   text-decoration: none;
 }
+.lead {
+  font-size: 1.25em;
+}
 .genericon {
   font-size: 16px;
 }
@@ -6038,8 +6041,10 @@ a:hover {
 .detail-post-body strong:first-letter {
   font-size: 200%;
 }
-.detail-post-body p {
-  margin-bottom: 30px;
+.detail-post-body h3 {
+  font-size: 25px;
+  margin-bottom: 21px;
+  margin-top: 46px;
 }
 .detail-post-section {
   color: #777777;
