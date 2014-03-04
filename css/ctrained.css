@@ -5868,34 +5868,37 @@ p {
 .navbar-default .navbar-nav > li > a:hover {
   color: #e57b49;
 }
-.navigation .navbar {
+.navbar .navbar {
   border: 0px;
   min-height: 48px;
   margin-bottom: 0px;
 }
-.navigation .navbar .navbar-nav > li > a {
+.navbar .navbar .navbar-nav > li > a {
   font-size: 1em;
   height: 3em;
   line-height: 3em;
   padding: 0px 15px;
 }
-.navigation .navbar-brand {
-  font-size: 1em;
+.navbar .navbar-brand {
   color: white;
+  font-size: 1em;
+  line-height: 1.5em;
   height: 3em;
-  line-height: 3em;
-  padding: 0px 15px;
-}
-.navigation .navbar-header {
-  vertical-align: top;
   background-color: #e57b49;
 }
-.navigation .navbar-social a {
+.navbar .navbar-header {
+  vertical-align: top;
+  background-color: white;
+}
+.navbar .navbar-social a {
   font-size: 1em;
   font-family: 'Open Sans', serif;
 }
-.navigation .navbar-social a:hover {
+.navbar .navbar-social a:hover {
   color: #e57b49;
+}
+.navbar-collapse {
+  border-top: 0px;
 }
 .navbar-default {
   background-color: transparent;
@@ -5903,6 +5906,7 @@ p {
 }
 .navbar-toggle {
   background-color: #e57b49;
+  padding: 8px 10px;
 }
 .navbar-toggle .icon-bar {
   background-color: white !important;
@@ -6010,9 +6014,10 @@ p {
 .index-post-section h1 {
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 0em;
+  margin-bottom: .5em;
   margin-top: 1em;
   font-family: 'Roboto Slab', sans-serif;
+  font-size: 2em;
 }
 .index-post-section h1 a {
   color: #000000;
