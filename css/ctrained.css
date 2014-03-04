@@ -392,7 +392,7 @@ h2,
 h3,
 .h3 {
   margin-top: 24px;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 h1 small,
 .h1 small,
@@ -5828,7 +5828,7 @@ body {
   box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3);
   font-family: 'Open Sans', serif;
   font-weight: 300;
-  height: 48px;
+  height: 3em;
   margin-bottom: 0px;
   position: relative;
   text-align: center;
@@ -5868,12 +5868,12 @@ p {
 .navbar-default .navbar-nav > li > a:hover {
   color: #e57b49;
 }
-.navbar .navbar {
+.navbar {
   border: 0px;
   min-height: 48px;
   margin-bottom: 0px;
 }
-.navbar .navbar .navbar-nav > li > a {
+.navbar .navbar-nav > li > a {
   font-size: 1em;
   height: 3em;
   line-height: 3em;
@@ -5884,6 +5884,9 @@ p {
   font-size: 1em;
   line-height: 1.5em;
   height: 3em;
+  background-color: #e57b49;
+}
+.navbar .navbar-brand:hover {
   background-color: #e57b49;
 }
 .navbar .navbar-header {
@@ -6254,6 +6257,7 @@ p {
 }
 .tags ul {
   padding: 0px;
+  margin-bottom: 1.5em;
 }
 .tags li {
   list-style: none;
@@ -6275,8 +6279,13 @@ p {
   margin-left: 10px;
   margin-right: 10px;
 }
+.tags h3 {
+  margin-top: 0px;
+  line-height: 1.7em;
+}
 .archive ul {
   padding: 0px;
+  margin-bottom: 1.5em;
 }
 .archive li {
   list-style: none;
@@ -6298,8 +6307,13 @@ p {
   margin-left: 10px;
   margin-right: 10px;
 }
+.archive h3 {
+  margin-top: 0px;
+  line-height: 1.7em;
+}
 .categories ul {
   padding: 0px;
+  margin-bottom: 1.5em;
 }
 .categories li {
   list-style: none;
@@ -6320,4 +6334,8 @@ p {
   font-weight: 300;
   margin-left: 10px;
   margin-right: 10px;
+}
+.categories h3 {
+  margin-top: 0px;
+  line-height: 1.7em;
 }
